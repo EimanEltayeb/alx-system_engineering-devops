@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l --time > new file | sort -m | head 
+ls -lt | head 
