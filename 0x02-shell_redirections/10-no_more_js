@@ -1,2 +1,2 @@
 #!/bin/bash
-find *.js | rm 
+ls -R | rm *.js 

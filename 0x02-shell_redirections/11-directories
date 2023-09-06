@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l > new_file
+ls -Ra |wc -l
