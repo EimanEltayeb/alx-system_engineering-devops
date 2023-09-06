@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s%s\n" "${a..z}""{a..z}" | sort | tr -d "oo"
+printf "%s%s\n" "${a..z}""${a..z}" | sort | tr -d "oo"
