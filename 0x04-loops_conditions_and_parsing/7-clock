@@ -13,3 +13,4 @@ do
 	min=1
 	(( h ++ ))
 done
+echo "Hour: 12"
