@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+# displays time
+h=0
+min=1
+while [ $h -le 11 ]
+do
+	echo "Hour: $h"
+	while [ $min -le 59 ]
+	do
+		echo "$min"
+		(( min ++ ))
+	done
+	min=1
+	(( h ++ ))
+done
