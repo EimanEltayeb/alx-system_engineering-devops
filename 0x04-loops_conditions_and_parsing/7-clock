@@ -2,7 +2,7 @@
 # displays time
 h=0
 min=1
-while [ $h -le 11 ]
+while [ $h -le 12 ]
 do
 	echo "Hour: $h"
 	while [ $min -le 59 ]
@@ -13,4 +13,3 @@ do
 	min=1
 	(( h ++ ))
 done
-echo "Hour: 12"
