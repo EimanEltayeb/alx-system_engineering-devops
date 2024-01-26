@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-ps -euH
+#listc of process
+ps -e -u -H
