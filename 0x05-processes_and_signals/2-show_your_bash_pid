@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-ps -eH u | grep "bash"
+#show lines with bash word
 # shellcheck disable=SC2009
+ps -eH u | grep "bash"
