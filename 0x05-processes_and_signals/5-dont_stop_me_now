@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 # stop a proces
-p=$(pgrep "bash ./4-to_infinity_and_beyond")
-kill "$p"
+p=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
+if [ -n "$p" ]
+then
+	kill -15 "$p"
+fi
