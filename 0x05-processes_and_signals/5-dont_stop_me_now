@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # stop a process
-pi=$(pgrep -x "4-to_infinity_and_beyond")
+pi=$(pgrep -l 4-to_infinity_and_beyond)
 kill  "$pi"
