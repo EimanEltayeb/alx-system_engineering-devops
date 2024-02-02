@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-#
+#change local host and facebook ip
+cp /etc/hosts ~/hosts.new
+sed -i "s/^127\.0\.0\.1/127\.0\.0\.2 localhost/" ~/hosts.new
+cp ~/hosts.new /etc/hosts
