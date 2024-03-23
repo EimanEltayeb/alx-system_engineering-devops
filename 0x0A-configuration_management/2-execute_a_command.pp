@@ -1,5 +1,5 @@
 #Execute a command
-exec { 'killmenow':
+exec { 'pkill':
   command => '/bin/pkill killmenow',
-  onlyif  => 'bin/pkill -0  killmenow',
+  provider  => 'shell',
 }
